@@ -97,7 +97,7 @@ buferror(int err, char *buf, size_t buflen)
 }
 
 uintmax_t
-malloc_strtoumax(const char *restrict nptr, char **restrict endptr, int base)
+malloc_strtoumax(const char *__restrict__ nptr, char **__restrict__ endptr, int base)
 {
 	uintmax_t ret, digit;
 	int b;
